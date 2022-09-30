@@ -19,7 +19,13 @@ function Navbar() {
 
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item' >
-              <Link to='/' className='nav-links' onClick={() => setClick(false)}>Home</Link>
+              <Link to='/' className='nav-links' onClick={() => setClick(false)}>Ana Sayfa</Link>
+            </li>
+            <li className='nav-item' >
+              <Link to='/services' className='nav-links' onClick={() => setClick(false)}>Hizmetler</Link>
+            </li>
+            <li className='nav-item' >
+              <Link to='/products' className='nav-links' onClick={() => setClick(false)}>Ürünler</Link>
             </li>
           </ul>
         </div>
